@@ -11,3 +11,7 @@ engines:
 ratings:
   paths:
   - "**.py"
+exclude_paths:
+- "**/migrations/*"
+- "**/test*.py"
+- "**/tests/*"
